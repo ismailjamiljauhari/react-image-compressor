@@ -42,20 +42,16 @@
 }
 
 /* App.css */
-
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
   background-color: #f4f4f8;
+  color: #000; /* <--- force black text */
 }
 
 .App {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 2rem;
+  color: #000; /* <--- optional extra reinforcement */
 }
 
 h1 {
